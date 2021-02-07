@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <title>ELON MUSK</title>
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.links{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+
+}
+
+.links label{
+  padding: 10px 0;
+  flex-grow: 1;
+  cursor: pointer;
+  transition: all .4s;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 150%;
+  color: #fffefe;
+  background-color: #35383a;
+  }
+
+.links label:hover{
+  background-color: rgba(255,255,255,.2);
+}
+
+.scroll{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+.sections{
+  transition: all .4s;
+}
+
+
+.block{
+  width:100vw;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.block img{
+  width: 50%
+
+}
+
+.elonimg{
+  max-width:950%;
+  max-height: 95%;
+  flex-grow: 1;
+}
+footer.bar{
+  border-top: 0px solid rgb(0, 0, 0);
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background-color: #35383a;
+}
+
+.table{
+    margin: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border-spacing: 5px;
+    font-size: 120%;
+}
+
+#rdabout{
+  background: #C9C9C9;
+}
+
+
+#rdprojects{
+  background-color: #EEEEEE;
+}
+
+#rdcontact{
+  background-color: #414950;
+}
+
+#rd_projects:checked ~.sections{
+  margin-top: -100vh;
+}
+#rd_contact:checked~.sections{
+  margin-top: -200vh;
+}
+
+.text1{
+  position: relative;
+  padding: 100px;
+  font-family: 'Arial';
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  
+  }
+
+h1{
+  display: black;
+  font-size: 4em;
+  margin-block-start: 0.50em;
+  margin-block-end: 0.50em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+</style>
+</head>
+<body>
+<nav class="links">
+  <label for="rd_about"><b>About</b></label>
+  <label for="rd_projects"><b>Statistic</b></label>
+  <label for="rd_contact"><b>Contact</b></label>
+</nav>
+
+<div class="scroll">
+
+  <input type="radio" style="display:none;" name="group" id="rd_about" checked="true">
+  <input type="radio" style="display:none;" name="group" id="rd_projects">
+  <input type="radio" style="display:none;" name="group" id="rd_contact">
+
+<section class="sections">
+  <section class="block" id="rdabout"><img src = "elonmusk.png" class="elonimg" >
+<div class="text1">
+<br>
+<h1> ELON MUSK</h1>
+<br>
+     <p>Elon Musk is an inspiring figure for those who love technology and who want to change the world with technology
+    solutions. According with Erik Gregersen, Musk was long convinced that for life to survive, humanity has to become a multiplanet
+    species (n.d). Elon Musk has unusual idea about humanity and technology that make him unique and become the 1º rich man
+    the according to Visual Capitalist. </p><br>
+    <p> Elon Musk is CEO of Tesla, SpaceX and Neuralink. Tesla, Musk create different cars with battery technology that will
+      change the environment in the future because of clean energy. SpaceX design, manufactures rockets and others to
+      explore space to find some place such as Mars to make this a habitable planet for humans. Also, Musk created the Neuralink,
+      This company researches to develop a device to put in the human brain that will extend our bodies to technology. This
+      device in the future will be possible to change the paralytic life or some others accessibility.</p><br>
+    <p>That is the future, technology will change the world and that will be part of us. Elon Musk is just beginning of the
+      human creative or an example of thinking outside of the box. That is the inspiration of life, think about solution,
+      create new ideas to change the environment for better life for all of us
+.</p>
+
+  </div>
+  
+  
+  </section>
+<footer class="bar">
+  <p style= "text-align:right; font-size: 150%; color: #fffefe;padding: 9px 0 5px 0; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;" > Developed by Thomas</p>
+</footer>
+
+
+     <section class="block" id="rdprojects">                             
+  <table class="table">
+    <colgroup>
+        <col class="table1" >
+        <col class="table2" >
+        <col class="table3">
+    </colgroup>
+  <tr>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Wealth</th>
+      </tr>
+  <tr>
+    <th>#1</th>
+    <th>Elon Musk</th>
+    <th>$188 billion</th>
+    </tr>
+  <tr>
+    <th>#2</th>
+    <th>Jeff Bezos</th>
+    <th>$184 billion</th>
+  </tr>
+  <tr>
+    <th>#3</th>
+    <th>Bill Gates</th>
+    <th>$132 billion</th>
+  </tr>
+  <tr>
+    <th>#4</th>
+    <th>Bernard Arnault</th>
+    <th>$114 billion</th>
+      </tr>  
+
+
+  </table>
+<img src="https://www.visualcapitalist.com/wp-content/uploads/2021/01/elon-musk-worlds-richest-person-2.png"
+  alt="Rank Elon" style="text-align: right;  max-width: 100%; max-height: 85%;">
+</section>
+
+
+  <section class="block" id="rdcontact">
+    <div class="container">
+    <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <input type="text" id="country" name="country" placeholder="Your country..">
+
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+
+</section>
+</div>
+
+
+</body>
+</html>
